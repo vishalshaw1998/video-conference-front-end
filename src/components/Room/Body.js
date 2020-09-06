@@ -60,7 +60,7 @@ function Body({ id }) {
                     onLoadedMetadata={(e) => {
                         e.target.play();
                     }}
-                    muted={true}
+                    muted={false}
                 ></video>
             </div>
         </React.Fragment>
