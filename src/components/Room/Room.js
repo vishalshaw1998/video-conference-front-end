@@ -9,7 +9,7 @@ function Room() {
     useEffect(() => {
         axios({
             method: "GET",
-            url: `http://localhost:3001/${id}`,
+            url: `https://ancient-mesa-71850.herokuapp.com/${id}`,
         }).then((res) => {
             console.log(res.data.status);
         });

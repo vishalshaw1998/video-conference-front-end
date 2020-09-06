@@ -7,7 +7,7 @@ import "./style.css";
 function Body({ id }) {
     const videoElement1 = useRef();
     const videoElement2 = useRef();
-    const ENDPOINT = "http://localhost:3001/";
+    const ENDPOINT = "https://ancient-mesa-71850.herokuapp.com/";
     useEffect(() => {
         const socket = socketIOClient(ENDPOINT);
         const peer = new Peer();
